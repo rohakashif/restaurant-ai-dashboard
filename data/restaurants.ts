@@ -1,0 +1,48 @@
+import { Restaurant } from "@/types";
+
+export const restaurants: Restaurant[] = [
+  {
+    id: "rest-1",
+    name: "The Golden Fork",
+    description: "Fine dining with modern European cuisine and seasonal ingredients.",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    cuisine: "European",
+    rating: 4.8,
+    location: "123 Gourmet Street, NYC",
+    openHours: "11:00 AM - 11:00 PM",
+    phone: "+1 (555) 123-4567",
+  },
+  {
+    id: "rest-2",
+    name: "Sakura Sushi House",
+    description: "Authentic Japanese sushi and sashimi crafted by master chefs.",
+    image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=800&q=80",
+    cuisine: "Japanese",
+    rating: 4.9,
+    location: "456 Cherry Blossom Ave, NYC",
+    openHours: "12:00 PM - 10:00 PM",
+    phone: "+1 (555) 234-5678",
+  },
+  {
+    id: "rest-3",
+    name: "Spice Route",
+    description: "Aromatic Indian and Middle Eastern flavors in a vibrant setting.",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+    cuisine: "Indian",
+    rating: 4.7,
+    location: "789 Spice Lane, NYC",
+    openHours: "10:00 AM - 10:00 PM",
+    phone: "+1 (555) 345-6789",
+  },
+  {
+    id: "rest-4",
+    name: "La Terrazza",
+    description: "Rustic Italian trattoria with handmade pasta and wood-fired pizzas.",
+    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+    cuisine: "Italian",
+    rating: 4.6,
+    location: "321 Olive Road, NYC",
+    openHours: "11:30 AM - 11:30 PM",
+    phone: "+1 (555) 456-7890",
+  },
+];
