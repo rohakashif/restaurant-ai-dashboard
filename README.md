@@ -60,6 +60,7 @@ restaurant-ai-dashboard/
 └── README.md               # Project documentation
 
 ## 📦 Prerequisites
+
 ```text
 Ensure your host environment satisfies these baseline specifications:
 * **Node.js Environment:** v18.0.0 or higher — [Download Node.js](https://nodejs.org/)
@@ -69,15 +70,13 @@ Ensure your host environment satisfies these baseline specifications:
 ---
 
 ## 🚀 Getting Started
-```text
+
 ### 1. Clone the Workspace
-```text
 
 git clone https://github.com/rohakashif/restaurant-ai-dashboard.git
 cd restaurant-ai-dashboard
 
 ### 2. Launch the Development Server
-```text
 
 npm install
 npm run dev
