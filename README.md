@@ -2,7 +2,7 @@
 
 A premium, high-performance frontend system designed for modern restaurant operations and a seamless client ordering experience. This project demonstrates structured state management, responsive data visualization, and polished micro-interactions.
 
-🚀 **[Live Demo Link](https://restaurant-ai-dashboard-gamma.vercel.app/)** 
+🚀 **[Live Demo Link](https://restaurant-ai-dashboard-gamma.vercel.app/)**
 
 ---
 
@@ -11,8 +11,12 @@ A premium, high-performance frontend system designed for modern restaurant opera
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Prerequisites](#-prerequisites)
-- [Running with Docker (Recommended)](#-running-with-docker-recommended)
+- [Installation & Setup](#-installation--setup)
+- [Configuration & Environment Setup](#-configuration--environment-setup)
+- [Running the Application with Docker](#-running-the-application-with-docker)
 - [Local Development (Without Docker)](#-local-development-without-docker)
+- [Development & Customization](#-development--customization)
+- [Troubleshooting](#-troubleshooting)
 
 ---
 
@@ -54,3 +58,27 @@ restaurant-ai-dashboard/
 ├── Dockerfile              # Docker production environment blueprint
 ├── .dockerignore           # Excluded files from Docker build context
 └── README.md               # Project documentation
+
+## 📦 Prerequisites
+
+Ensure your host environment satisfies these baseline specifications:
+* **Node.js Environment:** v18.0.0 or higher — [Download Node.js](https://nodejs.org/)
+* **Package Management:** npm (bundled natively with your Node installation)
+* **Container Layer (Optional):** Docker Desktop — [Download Docker](https://www.docker.com/products/docker-desktop/)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Workspace
+```bash
+git clone https://github.com/rohakashif/restaurant-ai-dashboard.git
+cd restaurant-ai-dashboard
+
+### 2. Launch the Development Server
+```bash
+npm install
+npm run dev
+
+Open http://localhost:3000 in your browser to view the application.
+
