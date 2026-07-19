@@ -61,7 +61,6 @@ restaurant-ai-dashboard/
 
 ## 📦 Prerequisites
 
-```text
 Ensure your host environment satisfies these baseline specifications:
 * **Node.js Environment:** v18.0.0 or higher — [Download Node.js](https://nodejs.org/)
 * **Package Management:** npm (bundled natively with your Node installation)
